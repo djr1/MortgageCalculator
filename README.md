@@ -28,10 +28,9 @@ Enter Loan Amount: $<b>100000.00</b>
 Enter Interest Rate: %<b>3.5</b>
 Enter Number Of Years: <b>30</b>
 
-**************************************
-Monthly Mortgage Payment: $449.045
-Total Interest Paid: $61656.1
-**************************************
+Monthly Mortgage Payment: $449.0446878088234
+Total Interest Paid: $61656.08761117642
+
 </pre>
 
 <b>Note1:</b> Each inputted value is to be > 0.0. If an inputted value is entered incorrectly, output the message “Incorrect Input – Terminating Program” Here is an example. You are to terminate the program immediately when an illegal input occurs. <p></p>
@@ -46,3 +45,4 @@ Enter Interest Rate: %<b>-1.0</b>
 Incorrect Input - Terminating Program
 </pre>
   
+You will need to use the pow Java method that is part of the Math class. The pow method accepts two doubles and returns a double. For instance, System.out.println (Math.pow (2.0, 3.0)); will output 8.0 to the screen since 2.0 raised to the 3.0 equals 8.0.
